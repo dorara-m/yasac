@@ -100,20 +100,28 @@ img {
   text-decoration: underline;
 }
 
-.topPage .future ol {
-  padding-left: 2em;
-  list-style: decimal-leading-zero;
+.topPage .future ul {
+  padding-left: 1em;
+  list-style: disc;
 }
 
 .archivePages {
   padding: 48px 0;
 }
 
-.archivePages .memo h3 {
+.archivePages h1 {
+  margin-bottom: 32px;
+}
+
+.archivePages .memo_contents {
+  margin-top: 32px;
+}
+
+.archivePages .memo_contents h3 {
   margin-bottom: 8px;
 }
 
-.archivePages .memo ul {
+.archivePages .memo_contents ul {
   list-style: disc;
   margin-bottom: 16px;
 }

@@ -98,9 +98,9 @@ img {
   }
 
   .future {
-    ol {
-      padding-left: 2em;
-      list-style: decimal-leading-zero;
+    ul {
+      padding-left: 1em;
+      list-style: disc;
     }
   }
 }
@@ -108,13 +108,20 @@ img {
 .archivePages {
   padding: 48px 0;
 
+  h1 {
+    margin-bottom: 32px;
+  }
+
   .memo {
-    h3 {
-      margin-bottom: 8px;
-    }
-    ul {
-      list-style: disc;
-      margin-bottom: 16px;
+    &_contents {
+      margin-top: 32px;
+      h3 {
+        margin-bottom: 8px;
+      }
+      ul {
+        list-style: disc;
+        margin-bottom: 16px;
+      }
     }
   }
   .making {

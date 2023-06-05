@@ -29,81 +29,84 @@
     <main class="archivePages">
       <div class="container">
         <h1>第一回アーカイブ</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/X3DItDRXsUQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
         <section class="sectionH2 memo">
           <h2>解説したこと</h2>
           <p>メモ書き程度なので、詳しくは本編を見てね！</p>
           <!-- notionとかのテキスト貼り付け -->
-          <section>
-            <h3>htmlとは</h3>
-            <ul>
-              <li>
-                htmlとは？ハイパー、テキスト、マークアップ、ランゲージの略
-              </li>
-              <li>プログラミングというより、テキストファイル</li>
-              <li>メモ帳でも書けるよ</li>
-              <li>タグという文法。開始タグ、終了タグ</li>
-              <li>
-                headに書いた情報は表に出ない。そのhtmlファイル自体の説明的な役割。body内のものが表に出る
-              </li>
-              <li>基本タグ、p,h1,a,img,ul,li</li>
-              <li>
-                ファイル名はindex.htmlが基本。そのディレクトリにアクセスしただけで見れるから。
-              </li>
-              <li>
-                ブラウザソフトにhtmlファイルをドラッグドロップすれば見れる
-              </li>
-              <li>メモ帳でもできる、とはいえvsCodeを使おう。</li>
-            </ul>
-          </section>
-          <section>
-            <h3>cssとは</h3>
-            <ul>
-              <li>cssとは。カスケーディング、スタイル、シート</li>
-              <li>htmlを装飾するためだけの言語、htmlなしでは存在しえない。</li>
-              <li>htmlにstyle属性で直でも書けるよ</li>
-              <li>でも大体外部ファイル化する。style.cssで書いて読み込む</li>
-              <li>
-                cssをあてるときhtml側ではタグにclass属性を指定してあげる。
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h3>webページ公開するにはgithub pages</h3>
-            <ul>
-              <li>※できればmacだと早い</li>
-              <li>githubというサービスにアカウント登録（メアド・パスワード</li>
-              <li>リポジトリ（ディレクトリみたいなもの）つくる</li>
-              <li>github desktopというアプリをダウンロード</li>
-              <li>さっき作ったアカウントと接続</li>
-              <li>
-                フォルダを聞かれるので、さっき作ったリポジトリを登録、ディレクトリも適当な場所につくる
-              </li>
-              <li>そのディレクトリにupしたいファイル一式を突っ込む</li>
-              <li>git commit。push to remote</li>
-              <li>
-                githubにあがったらsettingsからpages。そこでブランチをmainセット→save。
-              </li>
-              <li>
-                しばらくしたらサイトが生成されて、github.ioなんちゃかとurlが見れる。これで公開完了！
-              </li>
-            </ul>
-          </section>
+          <div class="memo_contents">
+            <section>
+              <h3>htmlとは</h3>
+              <ul>
+                <li>
+                  htmlとは？ハイパー、テキスト、マークアップ、ランゲージの略
+                </li>
+                <li>プログラミングというより、テキストファイル</li>
+                <li>メモ帳でも書けるよ</li>
+                <li>タグという文法。開始タグ、終了タグ</li>
+                <li>
+                  headに書いた情報は表に出ない。そのhtmlファイル自体の説明的な役割。body内のものが表に出る
+                </li>
+                <li>基本タグ、p,h1,a,img,ul,li</li>
+                <li>
+                  ファイル名はindex.htmlが基本。そのディレクトリにアクセスしただけで見れるから。
+                </li>
+                <li>
+                  ブラウザソフトにhtmlファイルをドラッグドロップすれば見れる
+                </li>
+                <li>メモ帳でもできる、とはいえvsCodeを使おう。</li>
+              </ul>
+            </section>
+            <section>
+              <h3>cssとは</h3>
+              <ul>
+                <li>cssとは。カスケーディング、スタイル、シート</li>
+                <li>
+                  htmlを装飾するためだけの言語、htmlなしでは存在しえない。
+                </li>
+                <li>htmlにstyle属性で直でも書けるよ</li>
+                <li>でも大体外部ファイル化する。style.cssで書いて読み込む</li>
+                <li>
+                  cssをあてるときhtml側ではタグにclass属性を指定してあげる。
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h3>webページ公開するにはgithub pages</h3>
+              <ul>
+                <li>※できればmacだと早い</li>
+                <li>
+                  githubというサービスにアカウント登録（メアド・パスワード
+                </li>
+                <li>リポジトリ（ディレクトリみたいなもの）つくる</li>
+                <li>github desktopというアプリをダウンロード</li>
+                <li>さっき作ったアカウントと接続</li>
+                <li>
+                  フォルダを聞かれるので、さっき作ったリポジトリを登録、ディレクトリも適当な場所につくる
+                </li>
+                <li>そのディレクトリにupしたいファイル一式を突っ込む</li>
+                <li>git commit。push to remote</li>
+                <li>
+                  githubにあがったらsettingsからpages。そこでブランチをmainセット→save。
+                </li>
+                <li>
+                  しばらくしたらサイトが生成されて、github.ioなんちゃかとurlが見れる。これで公開完了！
+                </li>
+              </ul>
+            </section>
+          </div>
         </section>
         <section class="sectionH2 making">
           <h2>作ったページ</h2>
           <a href="https://numecha2.github.io/nume-yasac/">こちら</a>
-        </section>
-        <section class="sectionH2">
-          <h2>配信アーカイブ</h2>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/X3DItDRXsUQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
         </section>
       </div>
     </main>
