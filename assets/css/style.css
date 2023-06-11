@@ -126,6 +126,11 @@ img {
   margin-bottom: 16px;
 }
 
+.archivePages .memo_contents a {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
 .archivePages .making a {
   text-decoration: underline;
 }
