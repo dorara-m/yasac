@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  color: #ff0000;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  a {
+    color: green;
+  }
+}
+
+.box2 {
+  margin-top: 30px;
+  background-color: blue;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.link {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.imgWrap {
+  position: relative;
+  .imgOnText {
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 263px;
+    left: 200px;
+    background: #000;
+  }
+}
+
+.toTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #000;
+  color: #fff;
+}

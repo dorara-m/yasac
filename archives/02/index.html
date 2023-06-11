@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>アーカイブ02 ぬめちゃのやさしいHTML</title>
+    <link rel="stylesheet" href="../../assets/css/reset.css" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <div class="logo">
+            <a href="../../index.html">yasaC</a>
+          </div>
+          <!-- <button>menu</button> -->
+        </div>
+        <!-- <nav class="menu">
+          <ul>
+            <li><a href="/">ホーム</a></li>
+            <li><a href="/archives/01/">第一回</a></li>
+            <li><a href="/about/">やさしいHTML学習について</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </header>
+    <main class="archivePages">
+      <div class="container">
+        <h1>第二回アーカイブ</h1>
+        <!-- iframe -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQ67-lZyPBA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <section class="sectionH2 memo">
+          <h2>解説したこと</h2>
+          <p>メモ書き程度なので、詳しくは本編を見てね！</p>
+          <!-- notionとかのテキスト貼り付け -->
+          <div class="memo_contents">
+            <ul>
+              <li>
+                まずmac環境でやります（windowsでもvsCode上なら一緒のはず、なにかあってもサポートできません
+              </li>
+              <li>
+                reset.cssについて。**必須**。ブラウザデフォはうざい。ググればでてくる
+                [meyerweb.com](http://meyerweb.com/eric/tools/css/reset/)
+              </li>
+              <li>
+                scssについて。読み方は「さす」で。sassの中の文法の1つ。でも基本scssしか使ってる人見ない。**scssおぼえて**
+              </li>
+              <li>
+                マージン（外側余白）とパディング（内側余白）、マージンは相殺する。ボーダー枠線。（box-sizing:
+                border-box;
+              </li>
+              <li>
+                要素には**ブロック要素（幅がデフォだと100%、margin,paddingとか使える）と、インライン要素（a,
+                button,
+                span幅はその要素ぶん。margin,padding上下が使えない）**、インラインブロック（幅はそのままで、marign,paddingとかもつく）、**迷ったらブロック**
+              </li>
+              <li>
+                絶対位置。**postiton:
+                absolute。外側にrelative。**画面上絶対固定ならfixed。
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="sectionH2 making">
+          <h2>作ったページ</h2>
+          <a href="/test/02/index.html">こちら</a>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">Created by Numecha.</footer>
+  </body>
+</html>
